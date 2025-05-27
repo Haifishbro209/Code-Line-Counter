@@ -93,7 +93,7 @@ echo "✅ Done."
 
 ```bash
 chmod +x count_repos.sh
-./count_repos.sh | tee code_line_count.txt
+./count_repos.sh > code_line_count.txt
 ```
 
 ---
