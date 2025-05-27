@@ -2,13 +2,6 @@
 
 This script clones all repositories from your GitHub account, counts the lines of code using **tokei**, and then cleans up by deleting the cloned repositories. It supports HTTPS cloning and outputs a detailed summary of code statistics.
 
----
-
-## Features
-- Clone all your GitHub repos with `--depth=1` (shallow clone)
-- Count code lines excluding unnecessary files
-- Automatically deletes cloned repos after analysis
-- Supports Windows, macOS, and Debian-based Linux
 
 ---
 
